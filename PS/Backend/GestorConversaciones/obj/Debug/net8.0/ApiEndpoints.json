@@ -1,0 +1,529 @@
+[
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineUserController",
+    "Method": "AddLineUser",
+    "RelativePath": "api/v1/addlineuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "add",
+        "Type": "GestorConversaciones.DTO.Request.LineUser.NewLineUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.ChatController",
+    "Method": "GetAllChat",
+    "RelativePath": "api/v1/allchat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.ChatController",
+    "Method": "ArchivedChat",
+    "RelativePath": "api/v1/archived/{idChat}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idChat",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.ChatController",
+    "Method": "GetChat",
+    "RelativePath": "api/v1/chat/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChatForUsers",
+    "RelativePath": "api/v1/chatforuser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChat",
+    "RelativePath": "api/v1/dashboardchat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChatForLine",
+    "RelativePath": "api/v1/dashboardchatforline",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChatNew",
+    "RelativePath": "api/v1/dashboardchatnew",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChatOpenPercentage",
+    "RelativePath": "api/v1/dashboardchatopenpercentage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardChatTaken",
+    "RelativePath": "api/v1/dashboardchattaken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.DashboardController",
+    "Method": "DashboardNotes",
+    "RelativePath": "api/v1/dashboardnotes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.CalendarController",
+    "Method": "DeleteCalendar",
+    "RelativePath": "api/v1/deleteCalendar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineController",
+    "Method": "DeleteLine",
+    "RelativePath": "api/v1/deleteline/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineUserController",
+    "Method": "DeleteLineUser",
+    "RelativePath": "api/v1/deletelineuser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "add",
+        "Type": "GestorConversaciones.DTO.Request.LineUser.NewLineUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/v1/deleteuser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.CalendarController",
+    "Method": "EditCalendar",
+    "RelativePath": "api/v1/editCalendar/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GestorConversaciones.DTO.Request.Calendar.EditCalendarRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineController",
+    "Method": "GetAllLine",
+    "RelativePath": "api/v1/getallline",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "api/v1/getalluser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.CalendarController",
+    "Method": "GetByIdClientCalendar",
+    "RelativePath": "api/v1/getByIdClient/{idclient}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idClient",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.CalendarController",
+    "Method": "GetCalendar",
+    "RelativePath": "api/v1/getCalendar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/v1/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Login.DTO.Request.User.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Login.DTO.Result.BaseResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.ChatController",
+    "Method": "SendMessage",
+    "RelativePath": "api/v1/message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Message",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdChat",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.CalendarController",
+    "Method": "NewCalendar",
+    "RelativePath": "api/v1/newCalendar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GestorConversaciones.DTO.Request.Calendar.NewCalendarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineController",
+    "Method": "AddLine",
+    "RelativePath": "api/v1/newline",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "line",
+        "Type": "GestorConversaciones.DTO.Request.Line.NewLineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.UserController",
+    "Method": "NewUser",
+    "RelativePath": "api/v1/newuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "GestorConversaciones.DTO.Request.User.NewUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.PayController",
+    "Method": "CancelPayment",
+    "RelativePath": "api/v1/payment/cancel/{paymentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.PayController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/v1/payment/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GestorConversaciones.DTO.Request.Pay.PayUsersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.PayController",
+    "Method": "GetPaymentStatus",
+    "RelativePath": "api/v1/payment/status/{paymentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.PayController",
+    "Method": "PaymentWebhook",
+    "RelativePath": "api/v1/payment/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "GestorConversaciones.DTO.Request.Pay.WebhookNotification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.RegisterController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/v1/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "Login.DTO.Request.User.NewUserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Login.DTO.Result.BaseResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.ChatController",
+    "Method": "TransferChat",
+    "RelativePath": "api/v1/transfer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chat",
+        "Type": "GestorConversaciones.DTO.Request.Chat.TransferChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.LineController",
+    "Method": "UpdateLine",
+    "RelativePath": "api/v1/updateline",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "line",
+        "Type": "GestorConversaciones.DTO.Request.Line.UpdateLineDeto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorConversaciones.Controllers.UserController",
+    "Method": "PutUser",
+    "RelativePath": "api/v1/updateuser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "GestorConversaciones.DTO.Request.User.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

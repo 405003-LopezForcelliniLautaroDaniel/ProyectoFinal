@@ -1,0 +1,45 @@
+{
+    "logout": "Home",
+    "home": {
+        "Title": "Resumen"
+    },
+    "Calendar": {
+        "Title": "Organizador de Tareas",
+        "Next": "Siguiente",
+        "Previous": "Anterior",
+        "Today": "Actual",
+        "Month": "Mes",
+        "Week": "Semana",
+        "Day": "Día",
+        "Agenda": "Agenda",
+        "DyT": "Fecha y Hora",
+        "Description": "Descripcion del Evento",
+        "BtnAdd": "Agregar",
+        "Details": "Detalles del Evento",
+        "BtnEdit": "Editar",
+        "BtnDelete": "Eliminar",
+        "EditEvent": "Editar Evento",
+        "BtnSave": "Guardar",
+        "BtnCancel": "Cancelar",
+        "DyTE": "Fecha y Hora del Evento"
+    },
+    "Chats": {
+        "Title": "Selecciona un Cliente para Comenzar"
+    },
+    "Conversation": {
+        "Title": "Selecciona un Cliente",
+        "Clients": "Clientes",
+        "Chating": "Conversando con",
+        "Message": "Escribe un Mensaje...",
+        "BtnSend": "Enviar",
+        "BtnOptions": "Opciones",
+        "BtnOther": "Otro",
+        "BtnNote": "Nota"
+    },
+    "Nav": {
+        "Start": "Iniciar",
+        "Calendar": "Calendario",
+        "Chats": "conversaciónes",
+        "Language": "Idioma"
+    }
+}

@@ -1,0 +1,6 @@
+@GestorConversaciones_HostAddress = http://localhost:5204
+
+GET {{GestorConversaciones_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

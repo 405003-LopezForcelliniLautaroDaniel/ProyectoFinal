@@ -1,0 +1,45 @@
+{
+    "logout": "Home",
+    "home": {
+        "Title": "Summary"
+    },
+    "Calendar": {
+        "Title": "Task Organizer",
+        "Next": "Next",
+        "Previous": "Previous",
+        "Today": "Today",
+        "Month": "Month",
+        "Week": "Week",
+        "Day": "Day",
+        "Agenda": "Agenda",
+        "DyT": "Date and Time",
+        "Description": "Event Description",
+        "BtnAdd": "Add",
+        "Details": "Event Details",
+        "BtnEdit": "Edit",
+        "BtnDelete": "Delete",
+        "EditEvent": "Edit Event",
+        "BtnSave": "Save",
+        "BtnCancel": "Cancel",
+        "DyTE": "Date and Time of the Event"
+    },
+    "Chats": {
+        "Title": "Select a Client to Start"
+    },
+    "Conversation": {
+        "Title": "Select a Client",
+        "Clients": "Clients",
+        "Chating": "Chatting With",
+        "Message": "Write a Message...",
+        "BtnSend": "Send",
+        "BtnOptions": "Options",
+        "BtnOther": "Other",
+        "BtnNote": "Note"
+    },
+    "Nav": {
+        "Start": "Start",
+        "Calendar": "Calendar",
+        "Chats": "Chats",
+        "Language": "Language"
+    }
+}
